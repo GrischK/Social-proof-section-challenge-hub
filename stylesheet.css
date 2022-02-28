@@ -1,0 +1,8 @@
+body{
+    min-width: 100vh;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(images/bg-pattern-bottom-desktop.svg), url(images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 102% 250%,0 0;
+}
