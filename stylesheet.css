@@ -33,7 +33,13 @@ h1{
 }
 
 .text_container{
-    width: 35%;
+    width: 44%;
+}
+
+.text_container p{
+    color: hsl(303, 10%, 53%);
+    font-family: "spartan";
+    font-weight: 500;
 }
 
 .section_haut{
@@ -49,9 +55,56 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: absolute;
 }
 
 .review_container{
     width: 50%;
     position: relative;
+}
+
+.r1{
+    top: 50px;
+}
+
+.r2{
+    top: 120px;
+    left: 50px;
+}
+
+.r3{
+    top: 190px;
+    left: 100px;
+}
+
+.avatars{
+    border-radius: 50%;
+}
+
+.review_id{
+    display: flex;
+}
+
+.commentary{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 320px;
+    height: 200px;
+    padding: 20px;
+}
+
+.commentary p, .commentary h2{
+    color: hsl(0, 0%, 100%);
+    font-family: 'spartan';
+}
+
+.commentary_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ri2{ 
+    position: absolute;
+    top: 10px;
+    left: 20%;
 }
