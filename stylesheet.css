@@ -1,6 +1,4 @@
 body{
-    min-width: 100vh;
-    min-height: 100vh;
     background-color: hsl(0, 0%, 100%);
     background-image: url(images/bg-pattern-bottom-desktop.svg), url(images/bg-pattern-top-desktop.svg);
     background-repeat: no-repeat;
@@ -170,15 +168,57 @@ h2,h3{
 @media screen and (max-width: 376px) {
     body{
         margin: 0 0;
-        max-width: 100vw;
     }
 
     main{
         display: flex;
         flex-direction: column;
+        max-height: min-content;
     }
 
     .section_haut{
         flex-direction: column;
+        width: 100%;
+    }
+
+    .text_container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text_container h1{
+        width: 100%;
+    }
+
+    .review{
+        position: initial;
+        width: 90%;
+        margin: 0 auto 15px;
+        flex-direction: column; 
+    }
+
+    .review_container{
+        width: 100%;
+        height: 400px;
+    }
+
+    .stars{
+        margin-top: 16px;
+    }
+
+    .commentary_block{
+        position: initial;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .commentary{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .ri2, .ri3{
+        position: initial;
     }
 }
