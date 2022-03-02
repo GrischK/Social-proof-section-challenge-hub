@@ -37,13 +37,14 @@ h1{
 }
 
 .text_container h1{
-    width: 90%;
+    width: 88%;
 }
 
 .text_container p{
     color: hsl(303, 10%, 53%);
     font-family: "spartan";
     font-weight: 500;
+    line-height: 1.5;   
 }
 
 .section_haut{
@@ -90,6 +91,7 @@ h1{
 .review_id{
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 
 .commentary{
@@ -100,7 +102,6 @@ h1{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
 }
 
@@ -123,6 +124,7 @@ h1{
     display: flex;
     justify-content: space-between;
     position: relative;
+    margin-top: 5%;
 }
 
 .ri2{ 
@@ -135,4 +137,32 @@ h1{
     position: absolute;
     top: 30px;
     left: 70%;
+}
+
+.review_p{
+    display: flex;
+    justify-content: center;
+}
+
+.avatar_name::after{
+    content: 'Verified buyer';
+    position: absolute;
+    top: 10px;
+}
+
+h3{
+    color: hsl(333, 80%, 67%);
+    font-family: 'spartan';
+    font-size: 0.9em;
+    margin-left: 20px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+h2,h3{
+    margin: 0 0 0 20px;
 }
