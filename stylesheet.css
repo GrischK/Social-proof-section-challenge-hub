@@ -50,7 +50,7 @@ h1{
 
 .review{
     background-color: hsl(300, 24%, 96%);
-    width: 450px;
+    width: 500px;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
@@ -101,10 +101,17 @@ h1{
 .commentary_block{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .ri2{ 
     position: absolute;
-    top: 10px;
-    left: 20%;
+    top: 15px;
+    left: 35%;
+}
+
+.ri3{ 
+    position: absolute;
+    top: 30px;
+    left: 70%;
 }
